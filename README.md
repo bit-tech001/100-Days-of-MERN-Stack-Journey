@@ -21,4 +21,4 @@ A 100-day journey to master the **MERN Stack (MongoDB, Express, React, Node.js)*
 
 ---
 
-## 📂 Project Structure
+
