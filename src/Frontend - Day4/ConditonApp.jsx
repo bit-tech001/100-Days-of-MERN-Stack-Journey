@@ -19,7 +19,6 @@ const LinkedInProfile = () => {
         {/* HEADER */}
         <div className="h-24 bg-[#0A66C2]" />
 
-        {/* PROFILE CONTENT */}
         <div className="px-6 pb-6 text-center">
           
           {/* PROFILE IMAGE */}
