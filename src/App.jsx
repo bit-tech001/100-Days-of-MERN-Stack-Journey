@@ -6,6 +6,7 @@ import CounterApp from './Frontend - Day3/CounterApp'
 import ConditionApp from './Frontend - Day4/ConditonApp'
 import ProductList from './Frontend -Day5/ProductList'
 import ProductGrid from './Frontend -Day5/ProductGrid'
+import ClockApp from './Fronteend - Day6/ClockApp'
 
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
      {/* <Index/> */}
      {/* <CounterApp/> */}
      {/* <ConditionApp/> */}
-     <ProductGrid/>
+     {/* <ProductGrid/> */}
+     <ClockApp/>
      </>
   )
 }
