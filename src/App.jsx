@@ -7,6 +7,8 @@ import ConditionApp from './Frontend - Day4/ConditonApp'
 import ProductList from './Frontend -Day5/ProductList'
 import ProductGrid from './Frontend -Day5/ProductGrid'
 import ClockApp from './Fronteend - Day6/ClockApp'
+import Forms from './Frontend - Day-7/Forms'
+import Lifting from './Frontend - Day-7/Lifting'
 
 
 const App = () => {
@@ -17,7 +19,9 @@ const App = () => {
      {/* <CounterApp/> */}
      {/* <ConditionApp/> */}
      {/* <ProductGrid/> */}
-     <ClockApp/>
+     {/* <ClockApp/> */}
+     <Forms/> 
+     {/* <Lifting/> */}
      </>
   )
 }

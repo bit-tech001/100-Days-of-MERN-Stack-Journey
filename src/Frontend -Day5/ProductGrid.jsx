@@ -17,7 +17,7 @@ export default function ProductGrid() {
     grid-cols-1
     sm:grid-cols-2
     md:grid-cols-3
-    lg:grid-cols-4
+    lg:grid-cols-44
     gap-8
     place-items-center
     max-w-7xl
