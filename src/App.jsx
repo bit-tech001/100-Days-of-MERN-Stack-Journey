@@ -9,6 +9,7 @@ import ProductGrid from './Frontend -Day5/ProductGrid'
 import ClockApp from './Fronteend - Day6/ClockApp'
 import Forms from './Frontend - Day-7/Forms'
 import Lifting from './Frontend - Day-7/Lifting'
+import TodoApp from './Frontend -Day8/TodoApp'
 
 
 const App = () => {
@@ -20,8 +21,9 @@ const App = () => {
      {/* <ConditionApp/> */}
      {/* <ProductGrid/> */}
      {/* <ClockApp/> */}
-     <Forms/> 
+     {/* <Forms/>  */}
      {/* <Lifting/> */}
+     <TodoApp/>
      </>
   )
 }
