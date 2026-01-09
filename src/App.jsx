@@ -19,6 +19,8 @@ import Product from "./Frontend - Day9/Product";
 import NavBar from "./Frontend - Day9/NavBar";
 import Home from "./Frontend - Day9/Home";
 import ProductDetails from "./Frontend - Day9/ProductDetails";
+import FetchApp from "./Fontend - Day10/FetchApp";
+import AxiosApp from "./Fontend - Day10/AxiosApp";
 
 const App = () => {
   return (
@@ -32,7 +34,9 @@ const App = () => {
       {/* <Forms/>  */}
       {/* <Lifting/> */}
       {/* <TodoApp/> */}
-        <NavBar />
+        {/* <NavBar />
+
+        
        <Routes>
         
         <Route path="/" element={<Home />} />
@@ -42,7 +46,9 @@ const App = () => {
        <Route path="/product/:id/:slug" element={<ProductDetails />} />
 
 
-      </Routes>
+      </Routes> */}
+      <FetchApp/>
+      {/* <AxiosApp/> */}
       
 
       
