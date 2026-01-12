@@ -46,7 +46,7 @@ const FormValidationUI = () => {
           {error && (
             <p className="text-red-500 text-sm mt-1">{error}</p>
           )}
-        </div>
+        </div>  
 
         <button
           type="submit"
