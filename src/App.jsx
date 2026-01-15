@@ -58,7 +58,8 @@ import "./index.css";
 import { MyProvider } from "./Frontend - Day11/Mycontext";
 import Child from "./Frontend - Day11/Child";
 import Validation from "./Frontend -Day12/Validation";
-import RHF from "./Frontend -Day12/RHF";
+// import RHF from "./Frontend -Day12/RHF";
+import JokesApp from "./component/jokesApp";
 
 const App = () => {
   return (
@@ -111,7 +112,9 @@ const App = () => {
     // </MyProvider>
 
     // <Validation/>
-    <RHF/>
+    // <RHF/>
+
+    <JokesApp/>
   );
 };
 
