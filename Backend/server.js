@@ -93,16 +93,11 @@ app.get('/',(req,res)=>{
   }
 ];
 
-
-   res.send(jokes)
+ res.send(jokes)
 // export default jokes;
 
-
  })
-
-
 const port = process.env.PORT || 3000;
-
 app.listen(port, ()=>{
     console.log(`Server at http://localhost: ${port}`);
     
