@@ -60,6 +60,7 @@ import Child from "./Frontend - Day11/Child";
 import Validation from "./Frontend -Day12/Validation";
 // import RHF from "./Frontend -Day12/RHF";
 import JokesApp from "./component/jokesApp";
+import BackList from "./Frontend -Day19/BacList";
 
 const App = () => {
   return (
@@ -114,7 +115,8 @@ const App = () => {
     // <Validation/>
     // <RHF/>
 
-    <JokesApp/>
+    // <JokesApp/>
+     <BackList/>
   );
 };
 
