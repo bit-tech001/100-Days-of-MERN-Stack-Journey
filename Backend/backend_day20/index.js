@@ -6,7 +6,6 @@ import User  from './models/user.model.js';
 const app = express()
 app.use(express.json())  //middleware
 
-const  URI = "mongodb+srv://bp2817433_db_user:bitnoxz12@cluster0.qf6fhvz.mongodb.net/mydata"
 
 
   const connectDB = async ()=>{
@@ -23,6 +22,8 @@ app.get('/' , (req,res)=> {
     connectDB()
     res.send('<h1>i am server</h1>')
 })
+
+
 
 //carate user
 app.post('/create' , async(req,res)=>{

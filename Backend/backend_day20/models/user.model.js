@@ -1,5 +1,4 @@
 
-
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
@@ -20,7 +19,6 @@ const userSchema = new mongoose.Schema({
          type:String,
         required:true,
         unique:true, 
-
     }
     
 },{timestamps:true})

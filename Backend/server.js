@@ -168,6 +168,7 @@ const app = express();
 app.use(cors({
   origin: "http://localhost:5173"
 }));
+
 app.use(express.json());
 
 // Temporary in-memory storage
@@ -175,8 +176,14 @@ let users = [];
 
 // GET → return all users
 app.get("/", (req, res) => {
-  res.json(users); // ✅ ARRAY
+  res.send("hi")
+  // res.json(users); // ✅ ARRAY
 });
+
+// app.get('/nn' , (req,res)=> {
+//     res.send('<h1>i am server</h1>')
+// })
+
 
 // POST → add new user
 app.post("/", (req, res) => {
@@ -184,10 +191,10 @@ app.post("/", (req, res) => {
 
   users.push(req.body); // save data
 
-  // res.json({
-  //   success: true,
-  //   message: "User added successfully"
-  // });
+  res.json({
+    success: true,
+    message: "User added successfully"
+  });
 });
 
 const port = 3000;
