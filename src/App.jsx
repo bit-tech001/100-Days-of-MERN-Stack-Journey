@@ -63,7 +63,16 @@ import JokesApp from "./component/jokesApp";
 import BackList from "./Frontend -Day19/BacList";
 import UserDashboard from "./frontend-22/UserDashboard";
 
+import { Routes , Route, Navigate } from "react-router-dom";
+import SignUp from "./Frontend -Day25/pages/SignUp";
+import Login from "./Frontend -Day25/pages/Login";
+import Home from "./Frontend -Day25/pages/Home";
+import { useContext } from "react";
+import { DataContext } from "./context/UserContext";
+
 const App = () => {
+  let {userData, setUserData} = useContext(DataContext);
+
   return (
     //  <MyProvider>
     //   <div className="min-h-screen bg-gray-100 flex items-center justify-center px-6">
@@ -118,7 +127,15 @@ const App = () => {
 
     // <JokesApp/>
     //  <BackList/>
-    <UserDashboard/>
+    // <UserDashboard/>
+
+    <Routes>
+     <Route path='/signup' element={<SignUp/>}/>
+
+     <Route path='/login' element={<Login/>}/>
+     {/* <Route path="*" element={<Login/>}/> */}
+     <Route path='/home' element={userData?<Home/>:<Navigate to={"/login"}/>}   />
+    </Routes>
   );
 };
 

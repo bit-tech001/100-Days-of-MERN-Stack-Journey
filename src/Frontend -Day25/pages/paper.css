@@ -1,0 +1,18 @@
+.paper-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("https://images.unsplash.com/photo-1678203699263-917199c725b2?w=1600&auto=format&fit=crop&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+/* Keep content above background */
+.paper-bg > * {
+  position: relative;
+  z-index: 1;
+}
